@@ -15,7 +15,7 @@
 	var defaultKey		= 'juHGAsYCKnoHlasnmk52Uc4ZeqYTnToJetJRcPigkcAl65I5', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [1136449824], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'Swansea Compost', // Replaces Xively logo in the header
-		dataDuration	= '7days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataDuration	= '1week', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 10800, // Default interval for data to be displayed (in seconds)
 		dataColor		= '0A1922', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 0; // To hide input form use value of 1, otherwise set to 0
